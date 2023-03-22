@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A Coding Project By Andrew Titus</title>
+    <title>Yo, Banana Boy: A Coding Project By Andrew Titus</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="img/AndrewTitusLogoBlack.svg" class="d-inline-block align-text-top"
-                alt="Andrew Titus Kogo" height="30"> APP NAME</a>
+                alt="Andrew Titus Kogo" height="30"> YO, BANANA BOY!</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,10 +37,10 @@
                         <a class="nav-link" href="code.html">The Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/AndrewMTitus/Yo-BananaBoy-">Git Repo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="#">About</a>
+                        <a class="nav-link" target="_blank" href="https://andrew-titus-portfolio.netlify.app/">About</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +49,41 @@
     <!-- Main Section -->
     <main class="flex-shrink-0">
         <div class="container">
-
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">
+                        Yo, Banana Boy: A Coding Project
+                    </h1>
+                    <h4 class="lead pb-3">
+                        Yo, Banana Boy is a palindrome. A palindrome is a word, phrase, or sequence that
+                        reads the same backward as forward. Write a program that checks if the phrase entered
+                        is a palindrome.
+                    </h4>
+                </div>
+                <div class="col">
+                    <h5 class="border-1 border-bottom border-warning">
+                        Enter a word or phrase to check
+                    </h5>
+                    <form class="row gx-3 gy-2">
+                        <div class="col">
+                            <!--userString is so that javascript can reference and pull value from it.-->
+                            <input id="userString" type="text" class="form-control" placeholder="Enter A String" aria-label="Enter A String">
+                        </div>
+                        <div class="col-12">
+                            <!--Have to use "button" to execute javascript-->
+                            <button type="button" id="btnSubmit" class="btn btn-warning">Check it!</button>
+                        </div>
+                        <div class="alert alert-info mt-5 invisible fade show" id="alert" role="alert">
+                            <h4 class="alert-heading">Well Done!</h4>
+                            <hr>
+                            <p class="mb-0" id="msg">
+                                <!--Insert a message here-->
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
     <!-- Footer Section -->
@@ -63,7 +97,7 @@
                         <img src="img/AndrewTitusLogoBlack.svg" alt="Andrew Titus" height="50">
                     </div>
                     <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
-                        < class="row">
+                        <div class="row">
                             <div class="col social"><a href="https://www.linkedin.com/in/andrew-titus-a744aa173/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></div>
                             <div class="col social"><a href="https://github.com/AndrewMTitus" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
                             <div class="col social"><a href="https://twitter.com/codes_andrew" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></div>
